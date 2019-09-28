@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://datingappwebapi.azurewebsites.net/api/'
+  apiUrl: 'http://datingappwebapi.azurewebsites.net/api/'
 };
 
 /*

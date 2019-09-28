@@ -52,8 +52,8 @@ export function tokenGetter() {
       JwtModule.forRoot({
          config: {
             tokenGetter: tokenGetter,
-            whitelistedDomains: ['localhost:5000'],
-            blacklistedRoutes: ['localhost:5000/api/auth']
+            whitelistedDomains: ['localhost:5000', 'datingappwebapi.azurewebsites.net'],
+            blacklistedRoutes: ['localhost:5000/api/auth', 'datingappwebapi.azurewebsites.net/api/auth']
          }
       })
    ],
